@@ -68,6 +68,11 @@ export default {
   margin: 0;
   width: 100%;
 }
+@media only screen and (max-width: 500px) {
+  .header {
+    height: 7rem;
+  }
+}
 .date {
   font-size: 27px;
   color: #024f55fb;
@@ -77,6 +82,13 @@ export default {
   justify-content: space-between;
   align-items: center;
   height: 1.5rem;
+}
+@media only screen and (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+    height: 3rem;
+    align-items: flex-start;
+  }
 }
 .task-counter {
   font-size: 15px;
