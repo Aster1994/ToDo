@@ -46,6 +46,12 @@ input[type="text"] {
   margin: 10px 5px;
   box-shadow: 0px 6px 8px 4px rgba(0, 0, 0, 0.2);
 }
+@media only screen and (max-width: 500px) {
+  input[type="text"] {
+    width: 14rem;
+    padding: 17px;
+  }
+}
 input[type="text"]:focus {
   outline-style: none;
 }
