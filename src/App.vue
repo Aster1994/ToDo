@@ -57,4 +57,10 @@ body {
     margin: 2rem 0;
   }
 }
+@media only screen and (max-width: 500px) {
+  #app {
+    width: 100%;
+    margin: 0;
+  }
+}
 </style>
